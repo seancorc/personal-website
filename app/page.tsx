@@ -15,14 +15,14 @@ export default function Home() {
             </span>
             <div className="flex justify-center space-x-12">
               <Link 
-                href="#projects" 
-                className="text-gray-600 hover:text-gray-900 transition-colors duration-200"
+                href="/projects" 
+                className="text-gray-600 hover:text-blue-900 transition-colors duration-200"
               >
                 Projects
               </Link>
               <Link 
-                href="#writing" 
-                className="text-gray-600 hover:text-gray-900 transition-colors duration-200"
+                href="/writing" 
+                className="text-gray-600 hover:text-blue-900 transition-colors duration-200"
               >
                 Writing
               </Link>
@@ -35,7 +35,7 @@ export default function Home() {
                   src="/Headshot-sm.jpeg"
                   alt="Profile photo at Bixby Bridge"
                   fill
-                  className="object-cover scale-110 object-center transition-transform duration-300 hover:scale-150"
+                  className="object-cover scale-110 object-center transition-transform duration-300 hover:scale-110"
                   priority
                 />
               </div>
