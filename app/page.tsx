@@ -16,13 +16,13 @@ export default function Home() {
             <div className="flex justify-center space-x-12">
               <Link 
                 href="/projects" 
-                className="text-gray-600 hover:text-blue-900 transition-colors duration-200"
+                className="text-gray-600 hover:text-gray-900 transition-colors duration-200"
               >
                 Projects
               </Link>
               <Link 
                 href="/writing" 
-                className="text-gray-600 hover:text-blue-900 transition-colors duration-200"
+                className="text-gray-600 hover:text-gray-900 transition-colors duration-200"
               >
                 Writing
               </Link>
@@ -43,12 +43,20 @@ export default function Home() {
           </div>
 
           {/* Content */}
-          <div className="space-y-6 max-w-2xl mx-auto">
+          <div className="space-y-6 max-w-4xl mx-auto">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 text-center">
               Hi! I'm Sean 👋
             </h1>
-            <p className="text-lg text-gray-600 leading-relaxed">
-              Lorem ipsum.
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Hi! I’m Sean, a Cornell CS graduate (2022), software engineer, and entrepreneur. I'm currently working at ServiceNow building & deploying the company's data-streaming infrastructure. During my undergrad, I worked on a few student-led startups and founded&nbsp;
+              <a href="https://drinkalcolyte.com/" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">
+                Alcolyte
+              </a>, a consumer goods company. Alcolyte reached $10K in monthly revenue and grew to 10K social media followers before I wound it down in November 2024 due to profitability issues & a desire to focus on tech. I’m eager to combine the lessons from these experiences with my technical background and an awesome team to make something big.
+              <br /> <br />
+              Outside of work I've completed an Ironman, multiple marathons, and am about to do a 50 mile ultramarathon January 11th. Stopping after this race though because I want to put everything into launching a startup - that's my new race. I also play guitar & love music 
+              (<a href="https://soundcloud.com/seancorc-269889361" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">
+                Soundcloud
+              </a>).
             </p>
           </div>
         </div>
@@ -62,7 +70,7 @@ export default function Home() {
                 variant="ghost" 
                 className="text-gray-600 hover:text-gray-900 hover:bg-gray-100 transition-colors duration-200"
               >
-                <Link href="mailto:seancorcoran45@gmail.com" className="flex items-center">
+                <Link href="mailto:seancorcoran45@gmail.com" target="_blank" className="flex items-center">
                   <Mail className="mr-2 h-4 w-4" />
                   Email
                 </Link>
@@ -71,7 +79,7 @@ export default function Home() {
                 variant="ghost" 
                 className="text-gray-600 hover:text-gray-900 hover:bg-gray-100 transition-colors duration-200"
               >
-                <Link href="https://github.com/seancorc" className="flex items-center">
+                <Link href="https://github.com/seancorc" target="_blank" className="flex items-center">
                   <Github className="mr-2 h-4 w-4" />
                   GitHub
                 </Link>
@@ -80,7 +88,7 @@ export default function Home() {
                 variant="ghost" 
                 className="text-gray-600 hover:text-gray-900 hover:bg-gray-100 transition-colors duration-200"
               >
-                <Link href="https://linkedin.com/in/sean-corcoran" className="flex items-center">
+                <Link href="https://linkedin.com/in/sean-corcoran" target="_blank" className="flex items-center">
                   <Linkedin className="mr-2 h-4 w-4" />
                   LinkedIn
                 </Link>
