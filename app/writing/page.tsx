@@ -21,8 +21,13 @@ export default function WritingPage() {
             {/* <h2 className="text-2xl font-semibold mb-6">Recent Writing</h2> */}
             <ul className="space-y-3">
               <li>
+                <Link href="/writing" className="hover:text-gray-900 transition-colors">
+                  Reflections on Endurance (WIP - coming soon)
+                </Link>
+              </li>
+              <li>
                 <Link href="/writing/alcolyte-lessons" className="hover:text-gray-900 transition-colors">
-                  2024 November | Alcolyte Lessons
+                  Alcolyte Lessons (November 2024)
                 </Link>
               </li>
             </ul>

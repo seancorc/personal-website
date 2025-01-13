@@ -7,9 +7,10 @@ interface ProjectCardProps {
   title: string
   description: string
   emoji: string
+  date: string
 }
 
-export function ProjectCard({ link, title, description, emoji }: ProjectCardProps) {
+export function ProjectCard({ link, title, description, emoji, date }: ProjectCardProps) {
   return (
     <Card>
       <CardHeader>
@@ -19,6 +20,7 @@ export function ProjectCard({ link, title, description, emoji }: ProjectCardProp
           </a>
           <span className="text-xl">{emoji}</span>
         </CardTitle>
+        <div className="text-sm text-gray-500">{date}</div>
         <CardDescription>{description}</CardDescription>
       </CardHeader>
     </Card>
