@@ -21,7 +21,7 @@ export default function WritingPage() {
             {/* <h2 className="text-2xl font-semibold mb-6">Recent Writing</h2> */}
             <ul className="space-y-3">
               <li>
-                <Link href="/writing" className="hover:text-gray-900 transition-colors">
+                <Link href="/writing/endurance-reflections" className="hover:text-gray-900 transition-colors">
                   Reflections on Endurance (WIP - coming soon)
                 </Link>
               </li>

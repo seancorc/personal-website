@@ -24,9 +24,9 @@ export default function BlogPost() {
             </Link>
           </Button>
         </div>
-          <div className="text-gray-600 font-mono">January 2025</div>
+          <div className="text-gray-600 font-mono">(WIP - coming soon)</div>
         </div>
-        <p className="text-center">(WIP - coming soon)</p>
+        <p className="text-center">...</p>
         <div className="prose max-w-none mx-auto p-4">
             <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
         </div>

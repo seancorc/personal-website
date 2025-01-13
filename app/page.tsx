@@ -45,15 +45,15 @@ export default function Home() {
           {/* Content */}
           <div className="space-y-6 max-w-4xl mx-auto">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 text-center">
-              Hi! I'm Sean 👋
+              Hi! I&apos;m Sean 👋
             </h1>
             <p className="text-lg text-gray-700 leading-relaxed">
-              Hi! I’m Sean, a Cornell CS graduate (2022), software engineer, and entrepreneur. I'm currently working at ServiceNow building & deploying the company's data-streaming architecture. During my undergrad, I worked on a few student-led startups and founded&nbsp;
+              Hi! I&apos;m Sean, a Cornell CS graduate (2022), software engineer, and entrepreneur. I&apos;m currently working at ServiceNow building & deploying the company&apos;s data-streaming architecture. During my undergrad, I worked on a few student-led startups and founded&nbsp;
               <a href="https://drinkalcolyte.com/" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">
                 Alcolyte
               </a>, a consumer goods company. Alcolyte reached $10K in monthly revenue and grew to 10K social media followers before I wound it down in November 2024 due to profitability issues & a desire to focus on tech. I’m eager to combine the lessons from these experiences with my technical background and an awesome team to make something big.
               <br /> <br />
-              Outside of work I've completed an Ironman, multiple marathons, and just finished a 50 mile ultramarathon January 11th. Stopping after this race though because I want to put everything into launching a startup - that's my new race. I also play guitar & love music 
+              Outside of work I&apos;ve completed an Ironman, multiple marathons, and just finished a 50 mile ultramarathon January 11th. Stopping after this race though because I want to put everything into launching a startup - that&apos;s my new race. I also play guitar & love music 
               (<a href="https://soundcloud.com/seancorc-269889361" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">
                 Soundcloud
               </a>).
