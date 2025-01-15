@@ -48,7 +48,7 @@ export default function Home() {
               Hi! I&apos;m Sean 👋
             </h1>
             <p className="text-lg text-gray-700 leading-relaxed">
-              Hi! I&apos;m Sean, a Cornell CS graduate (2022), software engineer, and entrepreneur. I&apos;m currently working at ServiceNow building & deploying the company&apos;s data-streaming architecture. During my undergrad, I worked on a few student-led startups and founded&nbsp;
+              Cornell CS graduate (2022), software engineer, and entrepreneur. I&apos;m currently working at ServiceNow building & deploying the company&apos;s data-streaming architecture. During my undergrad, I worked on a few student-led startups and founded&nbsp;
               <a href="https://drinkalcolyte.com/" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">
                 Alcolyte
               </a>, a consumer goods company. Alcolyte reached $10K in monthly revenue and grew to 10K social media followers before I wound it down in November 2024 due to profitability issues & a desire to focus on tech. I’m eager to combine the lessons from these experiences with my technical background and an awesome team to make something big.
