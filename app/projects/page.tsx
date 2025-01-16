@@ -5,6 +5,13 @@ import { ChevronLeft } from 'lucide-react'
 
 const projects = [
   {
+    title: "SeanGPT",
+    emoji: "🤖",
+    link: "https://seangpt-sean-corcorans-projects.vercel.app/",
+    description: "Sean but ~AI~",
+    date: "January 2025"
+  },
+  {
     title: "Jack Sparrow AI",
     emoji: "🏴‍☠️",
     link: "https://jack-sparrow-ai.vercel.app/",
