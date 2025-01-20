@@ -16,13 +16,19 @@ export default function WritingPage() {
           </Button>
         </div>
 
-        <section className="space-y-16">
+        <section className="space-y-12">
+          
           <div>
-            {/* <h2 className="text-2xl font-semibold mb-6">Recent Writing</h2> */}
+            {/* <h2 className="text-2xl font-semibold mb-4">Health & Fitness</h2> */}
             <ul className="space-y-3">
+            <li>
+                <Link href="/writing/suffering" className="hover:text-gray-900 transition-colors">
+                  Suffering (WIP - coming soon)
+                </Link>
+              </li>
               <li>
-                <Link href="/writing/endurance-reflections" className="hover:text-gray-900 transition-colors">
-                  Reflections on Endurance (WIP - coming soon)
+                <Link href="/writing/health-and-fitness" className="hover:text-gray-900 transition-colors">
+                  Health & Fitness (January 2025)
                 </Link>
               </li>
               <li>
@@ -32,20 +38,9 @@ export default function WritingPage() {
               </li>
             </ul>
           </div>
-
           {/* <div>
-            <h2 className="text-2xl font-semibold mb-6">Essays</h2>
+            <h2 className="text-2xl font-semibold mb-4">Reflections</h2>
             <ul className="space-y-3">
-              <li>
-                <Link href="/writing/startup-ideas" className="hover:text-gray-900 transition-colors">
-                  2028 October  | Startup Ideas
-                </Link>
-              </li>
-              <li>
-                <Link href="/writing/lessons-learned" className="hover:text-gray-900 transition-colors">
-                  2027 October  | Blah
-                </Link>
-              </li>
             </ul>
           </div> */}
         </section>

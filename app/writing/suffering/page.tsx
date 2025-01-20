@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 import { ChevronLeft } from 'lucide-react'
 
 // Define the path to the HTML file
-const filePath = path.join(process.cwd(), 'app', 'writing', 'endurance-reflections', 'EnduranceReflections.html');
+const filePath = path.join(process.cwd(), 'app', 'writing', 'suffering', 'Suffering.html');
 
 // Read the HTML file content
 const htmlContent = fs.readFileSync(filePath, 'utf8');
@@ -16,7 +16,7 @@ export default function BlogPost() {
       <main className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="mb-12">
         <div className="mb-12 flex items-center justify-between">
-         <h1 className="text-4xl font-bold mb-4 text-gray-900">Endurance Reflections</h1>         
+         <h1 className="text-4xl font-bold mb-4 text-gray-900">Sean Corcoran</h1>         
           <Button variant="ghost" asChild className="text-gray-600 hover:text-gray-900">
             <Link href="/writing" className="flex items-center">
               <ChevronLeft className="mr-2 h-4 w-4" />
