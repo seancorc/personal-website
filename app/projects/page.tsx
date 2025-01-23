@@ -5,6 +5,13 @@ import { ChevronLeft } from 'lucide-react'
 
 const projects = [
   {
+    title: "ScaleYourself",
+    emoji: "📶",
+    link: "https://www.scaleyourself.co/",
+    description: "Working on SeanGPT led me to this idea. Thesis: Premium coaches can use AI clones to handle basic questions, enabling them to serve more clients, boost satisfaction, and focus on higher-value work.",
+    date: "January 2025"
+  },
+  {
     title: "SeanGPT",
     emoji: "🤖",
     link: "https://seangpt-sean-corcorans-projects.vercel.app/",
