@@ -8,7 +8,7 @@ const projects = [
     title: "ScaleYourself",
     emoji: "📶",
     link: "https://www.scaleyourself.co/",
-    description: "Working on SeanGPT led me to this idea. Thesis: Premium coaches can use AI clones to handle basic questions, enabling them to serve more clients, boost satisfaction, and focus on higher-value work.",
+    description: "Working on SeanGPT led me to this idea. Thesis: Premium coaches can use AI clones to handle basic questions, enabling them to serve more clients, boost satisfaction, and focus on higher-value work",
     date: "January 2025"
   },
   {
@@ -57,7 +57,7 @@ const projects = [
       title: "ChallengeMe",
       emoji: "🏆",
       link: "https://github.com/seancorc/ChallengeMe",
-      description: "IOS developer of team which participated in hackathon developing the “ChallengeMe” app: an engaging tool for personal fulfillment and self-improvement",
+      description: "IOS developer on team which participated in hackathon developing the “ChallengeMe” app: an engaging tool for personal fulfillment and self-improvement",
       date: "December 2018"
     },
   {
