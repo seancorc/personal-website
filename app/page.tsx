@@ -48,10 +48,10 @@ export default function Home() {
               Hi! I&apos;m Sean 👋
             </h1>
             <p className="text-lg text-gray-700 leading-relaxed">
-              Cornell CS graduate (2022), software engineer, and entrepreneur. I&apos;m currently working at ServiceNow building & deploying the company&apos;s data-streaming architecture. During my undergrad, I worked on a few student-led startups and founded&nbsp;
+              Software engineer (Cornell CS &apos;22) and entrepreneur (well, tryna be). I&apos;m currently working at ServiceNow building & deploying the company&apos;s data-streaming architecture. During my undergrad, I worked on a few student-led startups and founded&nbsp;
               <a href="https://drinkalcolyte.com/" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">
                 Alcolyte
-              </a>, a consumer goods company. Alcolyte reached $10K in monthly revenue and grew to 10K social media followers before I wound it down in November 2024 due to profitability issues & a desire to focus on tech. I’m eager to combine the lessons from these experiences with my technical background and an awesome team to make something big.
+              </a>, a consumer goods company. Alcolyte reached $10K in monthly revenue and grew to 10K social media followers before I wound it down in November 2024 due to profitability issues & a desire to focus on tech. Figuring out what&apos;s next. See my <Link href="/projects" className="text-blue-500 hover:underline">projects</Link> page for more.
               <br /> <br />
               Outside of work I&apos;ve completed an Ironman, multiple marathons, and just finished a 50 mile ultramarathon January 11th. Stopping after this race though because I want to put everything into launching a startup - that&apos;s my new race. I also play guitar & love music 
               (<a href="https://soundcloud.com/seancorc-269889361" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">
