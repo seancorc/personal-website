@@ -8,11 +8,18 @@ interface ProjectCardProps {
   description: string
   emoji: string
   date: string
+  status: 'active' | 'tabled' | 'archived'
 }
 
-export function ProjectCard({ link, title, description, emoji, date }: ProjectCardProps) {
+const statusStyles = {
+  active: "border-emerald-500/50",
+  tabled: "border-amber-500/50",
+  archived: "border-gray-400/50"
+} as const
+
+export function ProjectCard({ link, title, description, emoji, date, status }: ProjectCardProps) {
   return (
-    <Card>
+    <Card className={`border-2 ${statusStyles[status]} hover:shadow-lg transition-shadow`}>
       <CardHeader>
         <CardTitle className="flex justify-between items-center">
           <a href={link} className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">
