@@ -59,7 +59,7 @@ const projects: Project[] = [
     title: "Way",
     emoji: "💸",
     link: "https://www.linkedin.com/company/pay-with-way/",
-    description: "Founding member in a fintech startup created to simplify restaurant orders via mobile ordering & payments. Wish the website was still live, it was pretty cool. Ultimately failed due to equity disagreements which was a very educational experience",
+    description: "Founding member in a fintech startup created to simplify restaurant orders via mobile ordering & payments. Ultimately failed due to equity disagreements which was a very educational experience",
     date: "September 2019",
     status: 'archived'
   },
