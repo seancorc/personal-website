@@ -27,7 +27,7 @@ const projects: Project[] = [
     title: "AugmentOS Hackathon",
     emoji: "👓",
     link: "https://github.com/seancorc/AugmentedChords",
-    description: "One of ten engineers selected to participate in smartglasses hackathon. Built suite of music apps.  .",
+    description: "One of ten engineers selected to participate in smartglasses hackathon. Built suite of music apps.",
     date: "March 2025",
     status: 'archived'
   },
