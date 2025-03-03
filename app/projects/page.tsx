@@ -16,20 +16,28 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "BIP",
-    emoji: "🔨",
-    link: "https://www.buildinpublic.me/",
-    description: "Working on ScaleYourself + my past experience with Alcolyte led me to BIP. BIP is currently a WIP & my main focus right now",
-    date: "Febuary 2025",
+    title: "Shhh",
+    emoji: "🤫",
+    link: "https://emojipedia.org/shushing-face",
+    description: "Working on something with someone. We will emerge from the shadows soon 🥷",
+    date: "March 2025",
     status: 'active'
   },
   {
-    title: "ScaleYourself",
-    emoji: "📶",
-    link: "https://scale-yourself-lander.vercel.app/",
-    description: `Working on SeanGPT led me to this idea. Thesis: Premium coaches can leverage AI clones to serve more clients, boost current client satisfaction, and focus their time on higher-impact work.`,
-    date: "January 2025",
-    status: 'tabled'
+    title: "AugmentOS Hackathon",
+    emoji: "👓",
+    link: "https://github.com/seancorc/AugmentedChords",
+    description: "One of ten engineers selected to participate in smartglasses hackathon. Built suite of music apps.  .",
+    date: "March 2025",
+    status: 'archived'
+  },
+  {
+    title: "BIP",
+    emoji: "🔨",
+    link: "https://www.buildinpublic.me/",
+    description: "Built an AI journalist that makes social media posts based on a voice interview with an AI. Decided it was more of a vitamin than a painkiller so pivoted.",
+    date: "Febuary 2025",
+    status: 'archived'
   },
   {
     title: "SeanGPT",
@@ -103,10 +111,6 @@ const StatusLegend = () => {
       <div className="flex items-center gap-2">
         <div className="w-3 h-3 rounded-full bg-emerald-500" />
         <span className="text-sm text-gray-600">Active</span>
-      </div>
-      <div className="flex items-center gap-2">
-        <div className="w-3 h-3 rounded-full bg-amber-500" />
-        <span className="text-sm text-gray-600">Tabled</span>
       </div>
       <div className="flex items-center gap-2">
         <div className="w-3 h-3 rounded-full bg-gray-400" />
