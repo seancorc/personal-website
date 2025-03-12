@@ -35,7 +35,7 @@ const projects: Project[] = [
     title: "BIP",
     emoji: "🔨",
     link: "https://www.buildinpublic.me/",
-    description: "Built an app that creates social media posts based on a voice interview with an AI. Decided it was more of a vitamin than a painkiller so pivoted.",
+    description: "Built an app that creates social media posts based on an AI voice interview. A better oppurtunity with a co-founder came up and so I decided to pivot to that.",
     date: "Febuary 2025",
     status: 'archived'
   },
