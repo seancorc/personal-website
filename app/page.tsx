@@ -5,8 +5,8 @@ import Link from "next/link"
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white">
-      <main className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <div className="flex flex-col min-h-screen bg-white">
+      <main className="flex-1 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="space-y-12">
           {/* Header */}
           <div className="text-center space-y-8">
@@ -48,7 +48,7 @@ export default function Home() {
               Hi! {"I'm"} Sean 👋
             </h1>
             <p className="text-lg text-gray-700 text-center">
-              👉 <Link href="/projects" className="text-blue-500 hover:underline">projects</Link>  to see stuff {"I've"} done.
+              👉 <Link href="/projects" className="text-blue-500 hover:underline">projects</Link> to see stuff {"I've"} done.
               <br /> <br />
               👉 <Link href="/writing" className="text-blue-500 hover:underline">writing</Link>  to read thoughts {"I've"} had.
               <br /> <br />
@@ -58,7 +58,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className="border-t border-gray-200 py-8 mt-16">
+      <footer className="w-full border-t border-gray-200 bg-white py-6 mt-auto">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col items-center space-y-4">
             <div className="flex space-x-4">
