@@ -45,21 +45,15 @@ export default function Home() {
           {/* Content */}
           <div className="space-y-6 max-w-4xl mx-auto">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 text-center">
-              Hi! I&apos;m Sean 👋
+              Hi! {"I'm"} Sean 👋
             </h1>
-            <p className="text-lg text-gray-700 leading-relaxed">
-              Software engineer (Cornell CS &apos;22) and entrepreneur. I recently left my job at ServiceNow to work on a startup. More on that coming soon... 
+            <p className="text-lg text-gray-700 text-center">
+              👉 <Link href="/projects" className="text-blue-500 hover:underline">projects</Link>  to see stuff {"I've"} done.
               <br /> <br />
-              During my undergrad, I worked on a few startups including founding&nbsp;
-              <a href="https://drinkalcolyte.com/" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">
-                Alcolyte
-              </a>, a consumer goods company. Alcolyte reached $10K in monthly revenue and grew to 10K social media followers before I wound it down in November 2024 due to profitability issues & a desire to focus on tech. See my <Link href="/projects" className="text-blue-500 hover:underline">projects</Link> page for more.
+              👉 <Link href="/writing" className="text-blue-500 hover:underline">writing</Link>  to read thoughts {"I've"} had.
               <br /> <br />
-              Outside of work I&apos;ve completed an Ironman, multiple marathons, and a 50 mile ultramarathon. I recently hung up the Hokas to put everything into launching my startup - that&apos;s my new race (still run for fun/fitness, just not racing). I also play guitar & love music 
-              (<a href="https://soundcloud.com/seancorc-269889361" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">
-                Soundcloud
-              </a>).
-            </p>
+              👉 <Link href="https://soundcloud.com/seancorc-269889361" className="text-blue-500 hover:underline" target="_blank">soundcloud</Link> to hear sounds {"I've"} made.
+              </p>
           </div>
         </div>
       </main>

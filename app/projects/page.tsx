@@ -16,10 +16,10 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Shhh",
+    title: "Startup",
     emoji: "🤫",
     link: "https://emojipedia.org/shushing-face",
-    description: "Working on something with someone. We will emerge from the shadows soon 🥷.",
+    description: "Left my job at ServiceNow to work on a new startup with a cofounder. Excited for this one! We'll emerge from the shadows soon 🥷",
     date: "March 2025",
     status: 'active'
   },
@@ -27,7 +27,7 @@ const projects: Project[] = [
     title: "AugmentOS Hackathon",
     emoji: "👓",
     link: "https://github.com/seancorc/AugmentedChords/blob/main/README.md",
-    description: "One of ten engineers selected to participate in smartglasses hackathon. Built a suite of music apps and won first place.",
+    description: "One of ten engineers selected to participate in a smartglasses hackathon. Built a suite of music apps and won first place.",
     date: "March 2025",
     status: 'archived'
   },
@@ -35,7 +35,7 @@ const projects: Project[] = [
     title: "BIP",
     emoji: "🔨",
     link: "https://www.buildinpublic.me/",
-    description: "Built an app that creates social media posts based on an AI voice interview. A better oppurtunity with a co-founder came up and so I decided to pivot to that.",
+    description: "Built an app that creates social media posts based on an AI voice interview.",
     date: "Febuary 2025",
     status: 'archived'
   },
@@ -51,7 +51,7 @@ const projects: Project[] = [
     title: "Jack Sparrow AI",
     emoji: "🏴‍☠️",
     link: "https://jack-sparrow-ai.vercel.app/",
-    description: "Spent a few hours building this toy chatbot to get my hands dirty with AI. Idk where the jack sparrow theme came from in my brain but I thought it was funny. Prompted it to compliment my gf for fun :).",
+    description: "Built a toy chatbot to get my hands dirty with AI. Idk where the jack sparrow theme came from in my brain but I thought it was funny. Prompted it to compliment my gf for fun :)",
     date: "November 2024",
     status: 'archived'
   },
@@ -59,15 +59,23 @@ const projects: Project[] = [
     title: "Alcolyte",
     emoji: "💧",
     link: "https://drinkalcolyte.com/",
-    description: "Created the world's first electrolyte cocktail concentrate. Bootstrapped the company out of my apartment. Wound things down in November 2024 due to profitability issues & a desire to focus on tech. Learned an insane amount.",
+    description: "Founded a CPG startup and grew it to $10k MRR and over 10k social media followers before winding things down due to profitability challenges & a desire to focus on tech.",
     date: "Feburary 2021",
+    status: 'archived'
+  },
+  {
+    title: "ServiceNow",
+    emoji: "👨‍💻",
+    link: "https://www.servicenow.com/docs/bundle/yokohama-servicenow-platform/page/administer/hermes-messaging-service/concept/hermes-messaging-service.html",
+    description: "Built high-scale messaging service infrastructure for a few years to pay rent and fund my entrepreneurial adventures.",
+    date: "May 2020",
     status: 'archived'
   },
   {
     title: "Way",
     emoji: "💸",
     link: "https://www.linkedin.com/company/pay-with-way/",
-    description: "Founding member in a fintech startup created to simplify restaurant orders via mobile ordering & payments. Ultimately failed due to equity disagreements which was a very educational experience.",
+    description: "Founding member of fintech startup. Ultimately failed due to equity disagreements.",
     date: "September 2019",
     status: 'archived'
   },
@@ -75,7 +83,7 @@ const projects: Project[] = [
       title: "Hanger",
       emoji: "👕",
       link: "https://github.com/seancorc/Hanger/",
-      description: "Built tinder for buying & selling clothes. Before I could finalize dev, I got recruited to work on WAY so ended up just being a learning project.",
+      description: "Built tinder for buying & selling clothes.",
       date: "June 2019",
       status: 'archived'
     },
@@ -83,7 +91,7 @@ const projects: Project[] = [
       title: "Snax",
       emoji: "🍭",
       link: "https://github.com/seancorc/snax-backend",
-      description: "Backend developer on team which participated in hackathon developing 'Snax' - A food delivery app.",
+      description: "Hackathon app for food delivery.",
       date: "April 2019",
       status: 'archived'
     },
@@ -91,7 +99,7 @@ const projects: Project[] = [
       title: "ChallengeMe",
       emoji: "🏆",
       link: "https://github.com/seancorc/ChallengeMe",
-      description: "IOS developer on team which participated in hackathon developing the 'ChallengeMe' app: an engaging tool for personal fulfillment and self-improvement.",
+      description: "Hackathon app that gamifies personal development.",
       date: "December 2018",
       status: 'archived'
     },
@@ -99,7 +107,7 @@ const projects: Project[] = [
     title: "Spacecraft Dash",
     emoji: "👾",
     link: "https://github.com/seancorc/Spacecraft-Dash-",
-    description: "The project that started it all! Created a little game in high school that solidified my love of building things for the sake of delivering value to others. Watching people smile & have fun using something I made was a transformational experience.",
+    description: "Built a little iOS game in high school. Watching people smile & have fun using something I built was a transformational experience.",
     date: "July 2017",
     status: 'archived'
   }
