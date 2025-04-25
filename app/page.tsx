@@ -32,10 +32,10 @@ export default function Home() {
             <div className="flex justify-center">
               <div className="relative w-48 h-48 rounded-full overflow-hidden ring-2 ring-gray-200 ring-offset-2 ring-offset-white transition-all duration-300 hover:ring-gray-400">
                 <Image
-                  src="/Headshot-sm.jpeg"
+                  src="/prof-pic.jpeg"
                   alt="Profile photo at Bixby Bridge"
                   fill
-                  className="object-cover scale-110 object-center transition-transform duration-300 hover:scale-110"
+                  className="object-cover scale-150 object-[center_30%] transition-transform duration-300"
                   priority
                 />
               </div>
@@ -48,12 +48,14 @@ export default function Home() {
               Hi! I&apos;m Sean 👋
             </h1>
             <p className="text-lg text-gray-700 leading-relaxed">
-              Software engineer (Cornell CS &apos;22) and entrepreneur. I&apos;m currently working at ServiceNow building & deploying the company&apos;s data-streaming architecture. During my undergrad, I worked on a few student-led startups and founded&nbsp;
+              Software engineer (Cornell CS &apos;22) and entrepreneur. I recently left my job at ServiceNow to work on a startup. More on that coming soon... 
+              <br /> <br />
+              During my undergrad, I worked on a few startups including founding&nbsp;
               <a href="https://drinkalcolyte.com/" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">
                 Alcolyte
-              </a>, a consumer goods company. Alcolyte reached $10K in monthly revenue and grew to 10K social media followers before I wound it down in November 2024 due to profitability issues & a desire to focus on tech. Figuring out what&apos;s next. See my <Link href="/projects" className="text-blue-500 hover:underline">projects</Link> page for more.
+              </a>, a consumer goods company. Alcolyte reached $10K in monthly revenue and grew to 10K social media followers before I wound it down in November 2024 due to profitability issues & a desire to focus on tech. See my <Link href="/projects" className="text-blue-500 hover:underline">projects</Link> page for more.
               <br /> <br />
-              Outside of work I&apos;ve completed an Ironman, multiple marathons, and just finished a 50 mile ultramarathon January 11th. Stopping after this race though because I want to put everything into launching a startup - that&apos;s my new race. I also play guitar & love music 
+              Outside of work I&apos;ve completed an Ironman, multiple marathons, and a 50 mile ultramarathon. Stopping after this race though because I want to put everything into launching my startup - that&apos;s my new race. I also play guitar & love music 
               (<a href="https://soundcloud.com/seancorc-269889361" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">
                 Soundcloud
               </a>).

@@ -21,11 +21,11 @@ export default function WritingPage() {
           <div>
             {/* <h2 className="text-2xl font-semibold mb-4">Health & Fitness</h2> */}
             <ul className="space-y-3">
-            <li>
+            {/* <li>
                 <Link href="/writing/suffering" className="hover:text-gray-900 transition-colors">
-                  Suffering (WIP - coming soon)
+                  Suffering (WIP - Will get around to it at some point)
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="/writing/health-and-fitness" className="hover:text-gray-900 transition-colors">
                   Health & Fitness (January 2025)
