@@ -55,7 +55,7 @@ export default function Home() {
                 Alcolyte
               </a>, a consumer goods company. Alcolyte reached $10K in monthly revenue and grew to 10K social media followers before I wound it down in November 2024 due to profitability issues & a desire to focus on tech. See my <Link href="/projects" className="text-blue-500 hover:underline">projects</Link> page for more.
               <br /> <br />
-              Outside of work I&apos;ve completed an Ironman, multiple marathons, and a 50 mile ultramarathon. Stopping after this race though because I want to put everything into launching my startup - that&apos;s my new race. I also play guitar & love music 
+              Outside of work I&apos;ve completed an Ironman, multiple marathons, and a 50 mile ultramarathon. I recently hung the Hokas up to put everything into launching my startup - that&apos;s my new race (still run for fun/fitness, just not racing). I also play guitar & love music 
               (<a href="https://soundcloud.com/seancorc-269889361" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">
                 Soundcloud
               </a>).
