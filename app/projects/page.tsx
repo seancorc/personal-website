@@ -11,17 +11,29 @@ interface Project {
   link: string;
   description: string;
   date: string;
+  strikeThrough?: boolean;
+  postStrikeThroughDescription?: string;
   status: ProjectStatus;
 }
 
 const projects: Project[] = [
   {
-    title: "Startup",
-    emoji: "🤫",
-    link: "https://emojipedia.org/shushing-face",
-    description: "Left my job at ServiceNow to work on a new startup with a cofounder. Excited for this one! We'll emerge from the shadows soon 🥷",
-    date: "March 2025",
+    title: "Going Up The Country",
+    emoji: "🚗",
+    link: "https://www.youtube.com/watch?v=4eQMA_noRYQ",
+    description: "I'm taking some time to figure out what I want to do with this whole life thing. If you need me, I'll be in Montana.",
+    date: "May 2025",
     status: 'active'
+  },
+  {
+    title: "Stealth Startup",
+    emoji: "🥷",
+    link: "https://www.youtube.com/watch?v=IdTMDpizis8",
+    description: "Left my job at ServiceNow to work on a new startup with a cofounder. Excited for this one! We'll emerge from the shadows soon.",
+    strikeThrough: true,
+    postStrikeThroughDescription: "Well that didn't go as planned",
+    date: "March 2025",
+    status: 'archived'
   },
   {
     title: "AugmentOS Hackathon",
@@ -59,7 +71,7 @@ const projects: Project[] = [
     title: "Alcolyte",
     emoji: "💧",
     link: "https://drinkalcolyte.com/",
-    description: "Founded a CPG startup and grew it to $10k MRR and over 10k social media followers before winding things down due to profitability challenges & a desire to focus on tech.",
+    description: "Founded a CPG startup and grew it to $10k MRR and over 10k social media followers before winding it down due to profitability challenges & a desire to focus on tech.",
     date: "Feburary 2021",
     status: 'archived'
   },
