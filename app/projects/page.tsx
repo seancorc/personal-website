@@ -71,7 +71,7 @@ const projects: Project[] = [
     title: "Alcolyte",
     emoji: "💧",
     link: "https://drinkalcolyte.com/",
-    description: "Founded a CPG startup and grew it to $10k MRR and over 10k social media followers before winding it down due to profitability challenges & a desire to focus on tech.",
+    description: "Founded a CPG startup and grew it to $10k MRR and over 10k social media followers.",
     date: "Feburary 2021",
     status: 'archived'
   },
