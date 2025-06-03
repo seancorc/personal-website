@@ -27,6 +27,11 @@ export default function WritingPage() {
                 </Link>
               </li> */}
               <li>
+                <Link href="/writing/religion" className="hover:text-gray-900 transition-colors">
+                  Religion (June 2025)
+                </Link>
+              </li>
+              <li>
                 <Link href="/writing/health-and-fitness" className="hover:text-gray-900 transition-colors">
                   Health & Fitness (January 2025)
                 </Link>
