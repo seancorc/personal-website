@@ -11,14 +11,12 @@ interface Project {
   link: string;
   description: string;
   date: string;
-  strikeThrough?: boolean;
-  postStrikeThroughDescription?: string;
   status: ProjectStatus;
 }
 
 const projects: Project[] = [
   {
-    title: "Going Up The Country",
+    title: "Soul Searching",
     emoji: "🚗",
     link: "https://www.youtube.com/watch?v=4eQMA_noRYQ",
     description: "I'm taking some time to figure out what I want to do with this whole life thing. If you need me, I'll be in Montana.",
@@ -29,9 +27,7 @@ const projects: Project[] = [
     title: "Stealth Startup",
     emoji: "🥷",
     link: "https://www.youtube.com/watch?v=IdTMDpizis8",
-    description: "Left my job at ServiceNow to work on a new startup with a cofounder. Excited for this one! We'll emerge from the shadows soon.",
-    strikeThrough: true,
-    postStrikeThroughDescription: "Well that didn't go as planned",
+    description: "Led product for an early-stage AI startup in commercial real estate. Stepped away after realizing it wasn't the right partnership.",
     date: "March 2025",
     status: 'archived'
   },
@@ -47,7 +43,7 @@ const projects: Project[] = [
     title: "BIP",
     emoji: "🔨",
     link: "https://www.buildinpublic.me/",
-    description: "Built an app that creates social media posts based on an AI voice interview.",
+    description: "Web-app that creates social media posts based on an AI voice interview.",
     date: "Febuary 2025",
     status: 'archived'
   },
@@ -63,7 +59,7 @@ const projects: Project[] = [
     title: "Jack Sparrow AI",
     emoji: "🏴‍☠️",
     link: "https://jack-sparrow-ai.vercel.app/",
-    description: "Built a toy chatbot to get my hands dirty with AI. Idk where the jack sparrow theme came from in my brain but I thought it was funny. Prompted it to compliment my gf for fun :)",
+    description: "Hacked together a toy chatbot to get my hands dirty with AI.",
     date: "November 2024",
     status: 'archived'
   },
@@ -79,7 +75,7 @@ const projects: Project[] = [
     title: "ServiceNow",
     emoji: "👨‍💻",
     link: "https://www.servicenow.com/docs/bundle/yokohama-servicenow-platform/page/administer/hermes-messaging-service/concept/hermes-messaging-service.html",
-    description: "Built high-scale messaging service infrastructure for a few years to pay rent and fund my entrepreneurial adventures.",
+    description: "Developed and globally deployed ServiceNow's data streaming infrastructure which processes billions of events daily.",
     date: "May 2020",
     status: 'archived'
   },
@@ -87,7 +83,7 @@ const projects: Project[] = [
     title: "Way",
     emoji: "💸",
     link: "https://www.linkedin.com/company/pay-with-way/",
-    description: "Founding member of fintech startup. Ultimately failed due to equity disagreements.",
+    description: "Founding member of a fintech startup building an online food ordering and payments platform.",
     date: "September 2019",
     status: 'archived'
   },
@@ -95,7 +91,7 @@ const projects: Project[] = [
       title: "Hanger",
       emoji: "👕",
       link: "https://github.com/seancorc/Hanger/",
-      description: "Built tinder for buying & selling clothes.",
+      description: "Tinder for buying & selling clothes.",
       date: "June 2019",
       status: 'archived'
     },
@@ -119,7 +115,7 @@ const projects: Project[] = [
     title: "Spacecraft Dash",
     emoji: "👾",
     link: "https://github.com/seancorc/Spacecraft-Dash-",
-    description: "Built a little iOS game in high school. Watching people smile & have fun using something I built was a transformational experience.",
+    description: "iOS game I built in high school. Watching people smile & have fun using something I built was a transformational experience and led me to pursue a career in software engineering.",
     date: "July 2017",
     status: 'archived'
   }
