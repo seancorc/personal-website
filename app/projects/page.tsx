@@ -16,12 +16,12 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Soul Searching",
+    title: "Meeting Myself",
     emoji: "🚗",
     link: "https://www.youtube.com/watch?v=4eQMA_noRYQ",
     description: "I'm taking some time to figure out what I want to do with this whole life thing. If you need me, I'll be in Montana.",
     date: "May 2025",
-    status: 'active'
+    status: 'archived'
   },
   {
     title: "Stealth Startup",
