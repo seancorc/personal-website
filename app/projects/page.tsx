@@ -24,10 +24,10 @@ const projects: Project[] = [
     status: 'archived'
   },
   {
-    title: "Stealth Startup",
-    emoji: "🥷",
-    link: "https://www.youtube.com/watch?v=IdTMDpizis8",
-    description: "Led product for an early-stage AI startup in commercial real estate. Stepped away after realizing it wasn't the right partnership.",
+    title: "PARES",
+    emoji: "🏠",
+    link: "https://www.pares.ai",
+    description: "Led product for an early-stage AI startup in commercial real estate. Stepped away after realizing it wasn't the right opportunity for me.",
     date: "March 2025",
     status: 'archived'
   },
