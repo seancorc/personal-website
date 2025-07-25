@@ -24,7 +24,7 @@ const projects: Project[] = [
     status: 'archived'
   },
   {
-    title: "PARES",
+    title: "PARES AI",
     emoji: "🏠",
     link: "https://www.pares.ai",
     description: "Led product for an early-stage AI startup in commercial real estate. Stepped away after realizing it wasn't the right opportunity for me.",
