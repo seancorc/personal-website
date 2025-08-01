@@ -16,6 +16,14 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title: "Kalos",
+    emoji: "🩻",
+    link: "https://livekalos.com",
+    description: "Head of engineering / trainer at Kalos, a DEXA-based personal training startup.",
+    date: "July 2025",
+    status: 'active'
+  },
+  {
     title: "Meeting Myself",
     emoji: "🚗",
     link: "https://www.youtube.com/watch?v=4eQMA_noRYQ",
