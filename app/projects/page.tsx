@@ -19,7 +19,7 @@ const projects: Project[] = [
     title: "Kalos",
     emoji: "🩻",
     link: "https://livekalos.com",
-    description: "Head of engineering / trainer at Kalos, a DEXA-based personal training startup.",
+    description: "Head of engineering / coach at Kalos, a DEXA-based personal training startup.",
     date: "July 2025",
     status: 'active'
   },
