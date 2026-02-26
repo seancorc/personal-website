@@ -1,12 +1,10 @@
-import { Button } from "@/components/ui/button"
-import { Github, Linkedin, Mail } from 'lucide-react'
 import Image from "next/image"
 import Link from "next/link"
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen bg-white">
-      <main className="flex-1 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <div className="min-h-screen bg-white">
+      <main className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="space-y-12">
           {/* Header */}
           <div className="text-center space-y-8">
@@ -57,43 +55,6 @@ export default function Home() {
           </div>
         </div>
       </main>
-
-      <footer className="w-full border-t border-gray-200 bg-white py-6 mt-auto">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col items-center space-y-4">
-            <div className="flex space-x-4">
-              <Button 
-                variant="ghost" 
-                className="text-gray-600 hover:text-gray-900 hover:bg-gray-100 transition-colors duration-200"
-              >
-                <Link href="mailto:seancorcoran45@gmail.com" target="_blank" className="flex items-center">
-                  <Mail className="mr-2 h-4 w-4" />
-                  Email
-                </Link>
-              </Button>
-              <Button 
-                variant="ghost" 
-                className="text-gray-600 hover:text-gray-900 hover:bg-gray-100 transition-colors duration-200"
-              >
-                <Link href="https://github.com/seancorc" target="_blank" className="flex items-center">
-                  <Github className="mr-2 h-4 w-4" />
-                  GitHub
-                </Link>
-              </Button>
-              <Button 
-                variant="ghost" 
-                className="text-gray-600 hover:text-gray-900 hover:bg-gray-100 transition-colors duration-200"
-              >
-                <Link href="https://www.linkedin.com/in/sean-corcoran-/" target="_blank" className="flex items-center">
-                  <Linkedin className="mr-2 h-4 w-4" />
-                  LinkedIn
-                </Link>
-              </Button>
-            </div>
-            <p className="text-gray-600">Based in Los Angeles, CA</p>
-          </div>
-        </div>
-      </footer>
     </div>
   )
 }

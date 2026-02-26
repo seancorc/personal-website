@@ -11,6 +11,7 @@ interface Project {
   link: string;
   description: string;
   date: string;
+  dateEnd?: string;
   status: ProjectStatus;
 }
 
@@ -19,9 +20,18 @@ const projects: Project[] = [
     title: "Kalos",
     emoji: "🩻",
     link: "https://livekalos.com",
-    description: "Head of engineering / coach at Kalos, a DEXA-based personal training startup.",
+    description: "Head of engineering.",
     date: "July 2025",
+    dateEnd: "current",
     status: 'active'
+  },
+  {
+    title: "Memorize It",
+    emoji: "🧠",
+    link: "https://memorize-it.vercel.app",
+    description: "Memorization app for scripts and speeches.",
+    date: "February 2026",
+    status: 'archived'
   },
   {
     title: "Meeting Myself",
@@ -36,7 +46,7 @@ const projects: Project[] = [
     emoji: "🏠",
     link: "https://www.pares.ai",
     description: "Led product for an early-stage AI startup in commercial real estate. Stepped away after realizing it wasn't the right opportunity for me.",
-    date: "March 2025",
+    date: "March - May 2025",
     status: 'archived'
   },
   {
@@ -76,7 +86,8 @@ const projects: Project[] = [
     emoji: "💧",
     link: "https://drinkalcolyte.com/",
     description: "Founded a CPG startup and grew it to $10k MRR and over 10k social media followers.",
-    date: "Feburary 2021",
+    date: "February 2021",
+    dateEnd: "November 2024",
     status: 'archived'
   },
   {
@@ -85,6 +96,7 @@ const projects: Project[] = [
     link: "https://www.servicenow.com/docs/bundle/yokohama-servicenow-platform/page/administer/hermes-messaging-service/concept/hermes-messaging-service.html",
     description: "Developed and globally deployed ServiceNow's data streaming infrastructure which processes billions of events daily.",
     date: "May 2020",
+    dateEnd: "March 2025",
     status: 'archived'
   },
   {
@@ -93,6 +105,7 @@ const projects: Project[] = [
     link: "https://www.linkedin.com/company/pay-with-way/",
     description: "Founding member of a fintech startup building an online food ordering and payments platform.",
     date: "September 2019",
+    dateEnd: "June 2020",
     status: 'archived'
   },
   {

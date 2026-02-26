@@ -8,6 +8,7 @@ interface ProjectCardProps {
   description: string
   emoji: string
   date: string
+  dateEnd?: string
   status: 'active' | 'tabled' | 'archived'
 }
 
@@ -17,7 +18,13 @@ const statusStyles = {
   archived: "border-gray-400/50"
 } as const
 
-export function ProjectCard({ link, title, description, emoji, date, status }: ProjectCardProps) {
+const formatDateRange = (date: string, dateEnd?: string) => {
+  if (!dateEnd) return date;
+  if (dateEnd === "current") return `${date} – current`;
+  return `${date} – ${dateEnd}`;
+};
+
+export function ProjectCard({ link, title, description, emoji, date, dateEnd, status }: ProjectCardProps) {
   return (
     <Card className={`border-2 ${statusStyles[status]} hover:shadow-lg transition-shadow min-h-[220px]`}>
       <CardHeader>
@@ -27,7 +34,7 @@ export function ProjectCard({ link, title, description, emoji, date, status }: P
           </a>
           <span className="text-xl">{emoji}</span>
         </CardTitle>
-        <div className="text-sm text-gray-500">{date}</div>
+        <div className="text-sm text-gray-500">{formatDateRange(date, dateEnd)}</div>
         <CardDescription className="text-sm text-muted-foreground">
           {description}
         </CardDescription>
