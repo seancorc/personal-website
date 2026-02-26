@@ -28,7 +28,7 @@ const projects: Project[] = [
   {
     title: "Memorize It",
     emoji: "🧠",
-    link: "https://memorize-it.vercel.app",
+    link: "https://memorize-it-ecru.vercel.app",
     description: "Memorization app for scripts and speeches.",
     date: "February 2026",
     status: 'archived'
