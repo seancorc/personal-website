@@ -136,7 +136,7 @@ const projects: Project[] = [
     title: "Spacecraft Dash",
     emoji: "👾",
     link: "https://github.com/seancorc/Spacecraft-Dash-",
-    description: "iOS game I built in high school. Watching people smile & have fun using something I built was a transformational experience and led me to pursue a career in software engineering.",
+    description: "iOS game I built in high school. Watching people smile & have fun using something I built was a transformational experience and led me to study Computer Science at Cornell.",
     date: "July 2017",
     status: 'archived'
   }
