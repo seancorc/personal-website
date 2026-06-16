@@ -59,8 +59,9 @@ const projects: Project[] = [
     title: "PARES AI",
     emoji: "🏠",
     link: "https://www.pares.ai",
-    description: "Led product for an early-stage AI startup in commercial real estate. Stepped away after realizing it wasn't the right opportunity for me.",
-    date: "March - May 2025",
+    description: "Led product for an early-stage AI startup in commercial real estate.",
+    date: "March 2025",
+    dateEnd: "May 2025",
     status: 'archived',
     category: 'career'
   },
