@@ -47,15 +47,6 @@ const projects: Project[] = [
     category: 'side'
   },
   {
-    title: "Meeting Myself",
-    emoji: "🚗",
-    link: "https://www.youtube.com/watch?v=4eQMA_noRYQ",
-    description: "I'm taking some time to figure out what I want to do with this whole life thing. If you need me, I'll be in Montana.",
-    date: "May 2025",
-    status: 'archived',
-    category: 'side'
-  },
-  {
     title: "PARES AI",
     emoji: "🏠",
     link: "https://www.pares.ai",
