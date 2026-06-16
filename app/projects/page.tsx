@@ -4,6 +4,7 @@ import { ProjectCard } from "@/components/project-card"
 import { ChevronLeft } from 'lucide-react'
 
 type ProjectStatus = 'active' | 'tabled' | 'archived';
+type ProjectCategory = 'career' | 'side';
 
 interface Project {
   title: string;
@@ -13,6 +14,7 @@ interface Project {
   date: string;
   dateEnd?: string;
   status: ProjectStatus;
+  category: ProjectCategory;
 }
 
 const projects: Project[] = [
@@ -23,7 +25,17 @@ const projects: Project[] = [
     description: "Head of engineering.",
     date: "July 2025",
     dateEnd: "current",
-    status: 'active'
+    status: 'active',
+    category: 'career'
+  },
+  {
+    title: "Markdown to PDF",
+    emoji: "📄",
+    link: "https://markdown-to-pdf-five-zeta.vercel.app",
+    description: "Paste Markdown, export a styled PDF.",
+    date: "June 2026",
+    status: 'archived',
+    category: 'side'
   },
   {
     title: "Memorize It",
@@ -31,7 +43,8 @@ const projects: Project[] = [
     link: "https://memorize-it-ecru.vercel.app",
     description: "Memorization app for scripts and speeches.",
     date: "February 2026",
-    status: 'archived'
+    status: 'archived',
+    category: 'side'
   },
   {
     title: "Meeting Myself",
@@ -39,7 +52,8 @@ const projects: Project[] = [
     link: "https://www.youtube.com/watch?v=4eQMA_noRYQ",
     description: "I'm taking some time to figure out what I want to do with this whole life thing. If you need me, I'll be in Montana.",
     date: "May 2025",
-    status: 'archived'
+    status: 'archived',
+    category: 'side'
   },
   {
     title: "PARES AI",
@@ -47,7 +61,8 @@ const projects: Project[] = [
     link: "https://www.pares.ai",
     description: "Led product for an early-stage AI startup in commercial real estate. Stepped away after realizing it wasn't the right opportunity for me.",
     date: "March - May 2025",
-    status: 'archived'
+    status: 'archived',
+    category: 'career'
   },
   {
     title: "AugmentOS Hackathon",
@@ -55,7 +70,8 @@ const projects: Project[] = [
     link: "https://github.com/seancorc/AugmentedChords/blob/main/README.md",
     description: "One of ten engineers selected to participate in a smartglasses hackathon. Built a suite of music apps and won first place.",
     date: "March 2025",
-    status: 'archived'
+    status: 'archived',
+    category: 'side'
   },
   {
     title: "BIP",
@@ -63,7 +79,8 @@ const projects: Project[] = [
     link: "https://www.buildinpublic.me/",
     description: "Web-app that creates social media posts based on an AI voice interview.",
     date: "Febuary 2025",
-    status: 'archived'
+    status: 'archived',
+    category: 'side'
   },
   {
     title: "SeanGPT",
@@ -71,7 +88,8 @@ const projects: Project[] = [
     link: "https://seangpt-sean-corcorans-projects.vercel.app/",
     description: "Sean but ~AI~",
     date: "January 2025",
-    status: 'archived'
+    status: 'archived',
+    category: 'side'
   },
   {
     title: "Jack Sparrow AI",
@@ -79,7 +97,8 @@ const projects: Project[] = [
     link: "https://jack-sparrow-ai.vercel.app/",
     description: "Hacked together a toy chatbot to get my hands dirty with AI.",
     date: "November 2024",
-    status: 'archived'
+    status: 'archived',
+    category: 'side'
   },
   {
     title: "Alcolyte",
@@ -88,7 +107,8 @@ const projects: Project[] = [
     description: "Founded a CPG startup and grew it to $10k MRR and over 10k social media followers.",
     date: "February 2021",
     dateEnd: "November 2024",
-    status: 'archived'
+    status: 'archived',
+    category: 'career'
   },
   {
     title: "ServiceNow",
@@ -97,7 +117,8 @@ const projects: Project[] = [
     description: "Developed and globally deployed ServiceNow's data streaming infrastructure which processes billions of events daily.",
     date: "May 2020",
     dateEnd: "March 2025",
-    status: 'archived'
+    status: 'archived',
+    category: 'career'
   },
   {
     title: "Way",
@@ -106,7 +127,8 @@ const projects: Project[] = [
     description: "Founding member of a fintech startup building an online food ordering and payments platform.",
     date: "September 2019",
     dateEnd: "June 2020",
-    status: 'archived'
+    status: 'archived',
+    category: 'career'
   },
   {
       title: "Hanger",
@@ -114,7 +136,8 @@ const projects: Project[] = [
       link: "https://github.com/seancorc/Hanger/",
       description: "Tinder for buying & selling clothes.",
       date: "June 2019",
-      status: 'archived'
+      status: 'archived',
+      category: 'side'
     },
     {
       title: "Snax",
@@ -122,7 +145,8 @@ const projects: Project[] = [
       link: "https://github.com/seancorc/snax-backend",
       description: "Hackathon app for food delivery.",
       date: "April 2019",
-      status: 'archived'
+      status: 'archived',
+      category: 'side'
     },
     {
       title: "ChallengeMe",
@@ -130,7 +154,8 @@ const projects: Project[] = [
       link: "https://github.com/seancorc/ChallengeMe",
       description: "Hackathon app that gamifies personal development.",
       date: "December 2018",
-      status: 'archived'
+      status: 'archived',
+      category: 'side'
     },
   {
     title: "Spacecraft Dash",
@@ -138,9 +163,13 @@ const projects: Project[] = [
     link: "https://github.com/seancorc/Spacecraft-Dash-",
     description: "iOS game I built in high school. Watching people smile & have fun using something I built was a transformational experience and led me to study Computer Science at Cornell.",
     date: "July 2017",
-    status: 'archived'
+    status: 'archived',
+    category: 'side'
   }
 ]
+
+const careerProjects = projects.filter((project) => project.category === 'career')
+const sideProjects = projects.filter((project) => project.category === 'side')
 
 const StatusLegend = () => {
   return (
@@ -171,14 +200,28 @@ export default function ProjectsPage() {
           </Button>
         </div>
         <StatusLegend />
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {projects.map((project) => (
-            <ProjectCard
-              key={project.title}
-              {...project}
-            />
-          ))}
-        </div>
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold tracking-tight text-gray-900 mb-6">Work</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {careerProjects.map((project) => (
+              <ProjectCard
+                key={project.title}
+                {...project}
+              />
+            ))}
+          </div>
+        </section>
+        <section>
+          <h2 className="text-2xl font-semibold tracking-tight text-gray-900 mb-6">Side Projects</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {sideProjects.map((project) => (
+              <ProjectCard
+                key={project.title}
+                {...project}
+              />
+            ))}
+          </div>
+        </section>
       </main>
     </div>
   )
