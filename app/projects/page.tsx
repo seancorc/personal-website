@@ -161,7 +161,7 @@ const projects: Project[] = [
 ]
 
 const careerProjects = projects.filter((project) => project.category === 'career')
-const sideProjects = projects.filter((project) => project.category === 'side')
+const sideQuests = projects.filter((project) => project.category === 'side')
 
 const StatusLegend = () => {
   return (
@@ -204,9 +204,9 @@ export default function ProjectsPage() {
           </div>
         </section>
         <section>
-          <h2 className="text-2xl font-semibold tracking-tight text-gray-900 mb-6">Side Projects</h2>
+          <h2 className="text-2xl font-semibold tracking-tight text-gray-900 mb-6">Side Quests</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {sideProjects.map((project) => (
+            {sideQuests.map((project) => (
               <ProjectCard
                 key={project.title}
                 {...project}
